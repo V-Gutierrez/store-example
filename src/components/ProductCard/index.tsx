@@ -1,3 +1,4 @@
+import { AddProductButton } from 'components';
 import React from 'react';
 import { Product } from 'types';
 import { formatCurrency } from 'utils/formatCurrency';
@@ -21,8 +22,8 @@ export const ProductCard: React.FC<Product> = ({ productImageUrl, productTitle, 
 
         <p className="product-card__payment">em até <b>{availableInstallmentsWithoutInterest}x de R$ {formatCurrency(installmentsWithoutInterestPriceCents / 100)}</b> sem juros</p>
       </div>
-      {/*TODO: BUTTON COMPONENT */}
 
+      <AddProductButton />
     </div>
   )
 }

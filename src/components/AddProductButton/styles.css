@@ -1,0 +1,44 @@
+.button__container {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 25px 5px
+}
+
+.button {
+  height: 55px;
+  width: 100%;
+  outline: none;
+  border: none;
+  box-shadow: none;
+  background: #40B25C;
+  border-radius: 5px;
+  padding: 12px 36px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: #1C6C3E;
+}
+
+.button--added {
+  height: 55px;
+  width: 100%;
+  outline: none;
+  border: none;
+  box-shadow: none;
+  border-radius: 5px;
+  padding: 12px 36px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  background: #A3F9B9;
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
