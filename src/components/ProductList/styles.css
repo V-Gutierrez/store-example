@@ -1,0 +1,6 @@
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(3, 400px);
+  align-content: center;
+  padding: 30px;
+}
