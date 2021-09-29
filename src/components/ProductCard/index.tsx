@@ -1,4 +1,4 @@
-import { AddProductButton } from 'components';
+import { AddProductButton, WishlistButton } from 'components';
 import React from 'react';
 import { Product } from 'types';
 import { formatCurrency } from 'utils/formatCurrency';
@@ -8,9 +8,14 @@ export const ProductCard: React.FC<Product> = ({ productImageUrl, productTitle, 
   return (
     <div className="product-card">
 
-      {/* TODO: Container with favorite button */}
+      <div className="product-card__image-container">
 
-      <img className="product-card__image" src={productImageUrl} alt={productTitle} />
+        <div className="product-card__wishlist-button">
+          <WishlistButton />
+        </div>
+
+        <img className="product-card__image" src={productImageUrl} alt={productTitle} />
+      </div>
 
       <div className="product-card__title-container">
         <p className="product-card__title">{productTitle}</p>

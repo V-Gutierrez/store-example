@@ -74,3 +74,13 @@
 .product-card__title-container, .product-card__prices-container {
   width: 90%;
 }
+
+.product-card__image-container {
+  position: relative
+}
+
+.product-card__wishlist-button {
+  position: absolute;
+  right: 0;
+  top: 2.5px
+}

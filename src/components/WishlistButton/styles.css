@@ -1,0 +1,69 @@
+.wishlist-button__container {
+  background: #F2F3F6;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+  outline: none;
+  border: none
+}
+
+
+.wishlist-button__container:hover {
+  background: #FEE5EC;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+  outline: none;
+  border: none
+}
+
+.wishlist__heart-icon {
+  fill: #F2F3F6;
+  stroke: #000
+}
+
+
+.wishlist-button__container:hover > .wishlist__heart-icon {
+  fill: #FEE5EC;
+  stroke: #DA4B4F
+}
+
+.wishlist-button__container--bookmarked {
+  background: #DA4B4F;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+  outline: none;
+  border: none
+}
+
+
+.wishlist-button__container--bookmarked:hover {
+  background: #C22539;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+  outline: none;
+  border: none
+}
+
+.wishlist-button__container--bookmarked > .wishlist__heart-icon {
+  fill: #F2F3F6;
+  stroke: #F2F3F6
+}
